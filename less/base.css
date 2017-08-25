@@ -1,0 +1,56 @@
+body,
+div,
+input,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+img,
+button,
+ul,
+li,
+i,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+i {
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: center;
+}
+input {
+  border: 0;
+  outline: none;
+}
+button {
+  border: 0;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.w {
+  width: 1226px;
+  margin: 0 auto;
+}
